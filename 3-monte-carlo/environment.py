@@ -176,7 +176,7 @@ class Env(tk.Tk):
         self.texts.append(right_id)
 
     def display_policy(self, policy):
-        lst =[[4,0],[2,1],[4,2],[3,3],[5,3],[2,4],[3,5],[4,3]]
+        done_point =[[4,0],[2,1],[4,2],[3,3],[5,3],[2,4],[3,5],[4,3]]
         for i in range(WIDTH):
             for j in range(HEIGHT):
                 if [i,j] not in lst:
